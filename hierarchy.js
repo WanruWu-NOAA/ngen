@@ -7,11 +7,15 @@ var hierarchy =
       [ "models::bmi::Bmi_Adapter< C >", "classmodels_1_1bmi_1_1_bmi___adapter.html", [
         [ "models::bmi::AbstractCLibBmiAdapter< C >", "classmodels_1_1bmi_1_1_abstract_c_lib_bmi_adapter.html", null ]
       ] ],
-      [ "models::bmi::Bmi_Adapter< T >", "classmodels_1_1bmi_1_1_bmi___adapter.html", [
+      [ "models::bmi::Bmi_Adapter< C_Bmi >", "classmodels_1_1bmi_1_1_bmi___adapter.html", [
         [ "models::bmi::AbstractCLibBmiAdapter< C_Bmi >", "classmodels_1_1bmi_1_1_abstract_c_lib_bmi_adapter.html", [
           [ "models::bmi::Bmi_C_Adapter", "classmodels_1_1bmi_1_1_bmi___c___adapter.html", null ]
         ] ]
-      ] ]
+      ] ],
+      [ "models::bmi::Bmi_Adapter< T >", "classmodels_1_1bmi_1_1_bmi___adapter.html", null ]
+    ] ],
+    [ "boost::dfs_visitor", null, [
+      [ "network::preorder_visitor< OutputIterator >", "structnetwork_1_1preorder__visitor.html", null ]
     ] ],
     [ "boost::exception", null, [
       [ "add_to_summed_nexus", "structadd__to__summed__nexus.html", null ],
@@ -37,6 +41,7 @@ var hierarchy =
     [ "evapotranspiration_options", "structevapotranspiration__options.html", null ],
     [ "evapotranspiration_params", "structevapotranspiration__params.html", null ],
     [ "forcing::ForcingProvider", "classforcing_1_1_forcing_provider.html", [
+      [ "CsvPerFeatureForcingProvider", "class_csv_per_feature_forcing_provider.html", null ],
       [ "Forcing", "class_forcing.html", null ],
       [ "forcing::WrappedForcingProvider", "classforcing_1_1_wrapped_forcing_provider.html", null ],
       [ "realization::Bmi_Formulation", "classrealization_1_1_bmi___formulation.html", [
@@ -173,7 +178,8 @@ var hierarchy =
       [ "ReservoirKernelTest", "class_reservoir_kernel_test.html", null ],
       [ "ReservoirTimelessKernelTest", "class_reservoir_timeless_kernel_test.html", null ],
       [ "SchaakeKernelTest", "class_schaake_kernel_test.html", null ],
-      [ "TshirtModelTest", "class_tshirt_model_test.html", null ]
+      [ "TshirtModelTest", "class_tshirt_model_test.html", null ],
+      [ "UnitsHelper_Test", "class_units_helper___test.html", null ]
     ] ],
     [ "testing::TestWithParam", null, [
       [ "Network_Test1", "class_network___test1.html", null ]
@@ -183,6 +189,7 @@ var hierarchy =
     [ "tshirt::tshirt_params", "structtshirt_1_1tshirt__params.html", null ],
     [ "tshirt::tshirt_state", "structtshirt_1_1tshirt__state.html", null ],
     [ "tshirt_c_result_fluxes", "structtshirt__c__result__fluxes.html", null ],
+    [ "UnitsHelper", "class_units_helper.html", null ],
     [ "utils::FileChecker", "classutils_1_1_file_checker.html", null ],
     [ "utils::StreamHandler", "classutils_1_1_stream_handler.html", [
       [ "utils::FileStreamHandler", "classutils_1_1_file_stream_handler.html", null ]
